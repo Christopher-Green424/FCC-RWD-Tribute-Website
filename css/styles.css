@@ -1,23 +1,42 @@
+* {
+    margin: 0vh auto 5vh auto;
+}
+
 /* #main {
 	
 } */
 
-/* #title {
-	
-} */
+.herogrid {
+    width: 100%;
+    grid-template-columns: 100vw;
+}
 
-/* #img-div {
-	
-} */
+#title {
+    margin-top: 5vh;
+    text-align: center;
+}
+
+#titlesubtext {
+    text-align: center;
+}
+
+#img-div {
+    display: flex;
+    justify-content: center;
+}
 
 /* #image {
 
 } */
 
-/* #image-caption {
+#image-caption {
+    text-align: center;
+}
 
-} */
+#tribute-heading {
+    text-align: center;
+}
 
-/* #tribute-info {
-
-} */
+#tribute-info {
+    margin: 2.5vh 30vw 5vh 30vw;
+}
