@@ -1,42 +1,72 @@
 * {
-    margin: 0vh auto 5vh auto;
+    color: white;
+    background-color: rgb(85, 85, 85);
 }
 
-/* #main {
-	
-} */
+#main {
+    margin: 0vh auto 5vh auto;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 20px;
+} 
 
-.herogrid {
+#img-div {
     width: 100%;
     grid-template-columns: 100vw;
+    align-content: center;
 }
 
 #title {
     margin-top: 5vh;
+    margin-bottom: 1vh;
     text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
 }
 
 #titlesubtext {
     text-align: center;
 }
 
-#img-div {
+#imagebox {
     display: flex;
     justify-content: center;
 }
 
-/* #image {
+#image {
+    max-width: 100%;
+    width: 70%;
+}
 
-} */
-
-#image-caption {
+#img-caption {
     text-align: center;
 }
 
 #tribute-heading {
     text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
 }
 
 #tribute-info {
-    margin: 2.5vh 30vw 5vh 30vw;
+    margin: 5vh 30vw 5vh 30vw;
 }
+
+#tribute-list {
+    line-height: 2;
+}
+
+#footer {
+    display: block;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+#link-text {
+    font-size: 32px;
+}
+
+#tribute-link {
+    font-size: 32px;
+    color:aqua;
+}
+
